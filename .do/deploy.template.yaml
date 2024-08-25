@@ -1,9 +1,9 @@
 spec:
-  name: sample-gatsby
+  name: purplepig-gatsby
   static_sites:
-  - build_command: yarn build
+  - build_command: pnpm build
     environment_slug: gatsby
     git:
       branch: main
-      repo_clone_url: https://github.com/digitalocean/sample-gatsby.git
-    name: sample-gatsby
+      repo_clone_url: https://github.com/bodrick/purplepig-gatsby.git
+    name: purplepig-gatsby
